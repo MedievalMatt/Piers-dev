@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #2f1e17;
+  height: 100%; }
+
+#page {
+  min-width: 800px;
+  width: 97%;
+  min-height: 1000px;
+  margin: auto;
+  font-family: "Signika Negative", "Arial", sans-serif; }
+
+#page.manuscript{
+    min-width:1145px !important
+}
+#page.description{
+    min-width:1090px !important
+}
+#page.page{
+    min-width:1090px !important
+}
+
+#page-header.manuscript-page {
+    min-width: 1090px !important }
+#page-header.manuscript-view {
+    min-width: 1145px !important }
+
+#page-header {
+  position: absolute;
+  width: 97%;
+  min-width: 800px;
+  margin: auto;
+  height: 148px;
+  background-image: url("/images/banner_bg_stretch.jpg");
+  background-repeat: repeat-x;
+  color: white;
+  z-index: 100; }
+  #page-header #background-graphic {
+    position: absolute;
+    background-image: url("/images/banner_bg.jpg");
+    width: 1024px;
+    height: 148px; }
+  #page-header #logo-graphic {
+    position: relative;
+    background-image: url("/images/logo_banner.png");
+    background-repeat: no-repeat;
+    width: 81px;
+    height: 120px;
+    margin: 15px 0 0 15px;
+    float: left; }
+  #page-header #title-graphic {
+    position: relative;
+    background-image: url("/images/banner_siegeofjerusalem.png");
+    background-repeat: no-repeat;
+    width: 425px;
+    height: 75px;
+    float: left;
+    margin: 35px 0 0 20px; }
+  #page-header #title-support {
+    position: relative;
+    float: left;
+    font-size: 14px;
+    margin: 61px 0 0 10px; }
+  #page-header #editor-name {
+    position: relative;
+    float: left;
+    font-size: 16px;
+    margin: 90px 0 0 -565px; }
+  #page-header #header-tabs {
+    position: relative;
+    padding-top: 118px; }
+    #page-header #header-tabs li {
+      display: inline;
+      float: right; }
+    #page-header #header-tabs li a {
+      width: 111px;
+      height: 30px;
+      display: block;
+      background-image: url("/images/topnav_tab_inactive.png");
+      background-repeat: no-repeat;
+      text-decoration: none;
+      font-size: 15px;
+      padding-top: 8px;
+      text-align: center;
+      color: #f0e7cf; }
+    #page-header #header-tabs li.current a {
+      background-image: url("/images/topnav_tab_active.png");
+      background-repeat: no-repeat;
+      background-position: top left;
+      color: #7b1c12; }
+    #page-header #header-tabs li a:hover {
+      color: #ffffff; }
+    #page-header #header-tabs li.current a:hover {
+      color: #ffffff; }
+    #page-header #header-tabs li.current, #page-header #header-tabs li.home {
+      z-index: 105; }
+    #page-header #header-tabs li.manuscript {
+      z-index: 104; }
+    #page-header #header-tabs li.search {
+      z-index: 103; }
+    #page-header #header-tabs li.compare {
+      z-index: 102; }
+
+#sidebar {
+  position: relative;
+  float: left;
+  width: 16%;
+  color: #695a42;
+  background-color: #ddd5bd;
+  z-index: 100;
+  top: 148px;
+  bottom: 38px;
+  min-height: 970px; }
+
+#sidebar-items #item-heading {
+  height: 25px;
+  padding: 25px 0 25px 25px;
+  font-size: 24px;
+  color: #7b1c12; }
+#sidebar-items #overview {
+  color: #695a42; }
+#sidebar-items li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 25px 0 20px 0;
+  padding: 0;
+  font-size: 16px;
+  padding: 0 0 0 25px; }
+  #sidebar-items li a {
+    text-decoration: none; }
+  #sidebar-items li a:hover {
+    color: white; }
+#sidebar-items .sublist {
+  padding: 0 0 0 30px;
+  font-size: 13px;
+  cursor: pointer; }
+#sidebar-items .active {
+  color: #2f1e17;
+  font-weight: bold; }
+
+#content {
+  position: relative;
+  float: right;
+  color: black;
+  background-color: #ece6d6;
+  width: 84%;
+  top: 148px;
+  bottom: 38px;
+  min-height: 970px; }
+  #content #content-controls {
+    position: relative;
+    background-color: #ddd5bd;
+    height: 30px;
+    margin: 15px 23px 0 25px; }
+  #content #content-display {
+    position: relative;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    margin: 15px 23px 0 25px; }
+
+#footer-spacer {
+  background-color: transparent;
+  height: 35px; }
+
+#main-footer {
+  position: fixed;
+  width: 100%;
+  height: 30px;
+  margin: auto;
+  text-align: center;
+  font-size: 11px;
+  background-color: #2f1e17;
+  color: #f0e7cf;
+  font-family: "Signika Negative", "Arial", sans-serif;
+  padding-top: 8px;
+  clear: both;
+  bottom: 0;
+  z-index: 101; }
+  #main-footer #terms {
+    color: #f0e7cf; }
+
+.standard-tooltip {
+  color: #000;
+  cursor: pointer; }
+
+.standard-tooltip:hover {
+  background-position: 0;
+  background-color: transparent;
+  color: #000; }
+
+.blockUI h1 {
+  font-family: 'trebuchet ms', verdana, arial;
+  font-size: 20px; }

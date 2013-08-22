@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mjc: Seige of Jerusalem Project File Structure      -->
+<!--     =========================================      -->
+<!-- SjEA/                                  -->
+<!--    <SJEAListforHTML.xml> (this file)   -->
+<!--    <SJEAXMLtoHTML.xsl>                 -->
+<!--    A&M SJEA files/                     -->
+<!--        xml/      -->
+<!--            <xml files for input>       -->
+<!--        images/                         -->
+<!--            <jpeg & tif page imgs>      -->
+<!--        stylesheets/                    -->
+<!--            manuscript.css              -->
+<!--          . . .                         -->
+
+<SJEA xmlns:tei="http://www.tei-c.org/ns/1.0">
+    <part code="xml/SJA.xml"/>
+    <part code="xml/SJC.xml/"/>
+    <part code="xml/SJD.xml"/>
+    <part code="xml/SJE.xml"/>
+    <part code="xml/SJEx.xml"/>
+    <part code="xml/SJL.xml"/>
+    <part code="xml/SJP.xml"/>
+    <part code="xml/SJU.xml"/>
+    <part code="xml/SJV.xml"/>
+
+</SJEA>
+

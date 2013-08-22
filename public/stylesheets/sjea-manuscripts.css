@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+#content #content-controls #view-control {
+  float: left;
+  width: 100px;
+  margin: 6px 0 0 6px; }
+#content #content-controls span {
+  float: left;
+  margin: 6px 0 0 6px; }
+#content #content-controls .color-key {
+  float: right;
+  width: 20px;
+  height: 20px;
+  margin: 5px 5px 5px 5px; }
+#content #content-controls #key-text {
+  float: right;
+  margin: 8px 0 0 0; }
+#content #content-controls #color-key-1 {
+  background-color: green; }
+#content #content-controls #color-key-2 {
+  background-color: olive; }
+#content #content-controls #color-key-3 {
+  background-color: violet; }
+#content #content-controls #color-key-4 {
+  background-color: purple; }
+#content #content-controls #color-key-5 {
+  background-color: aqua; }
+#content #content-controls #color-key-6 {
+  background-color: fuchsia; }
+#content #content-controls #color-key-7 {
+  background-color: darkgray; }
+#content #content-controls #xml-button {
+  float: right;
+  width: 50px;
+  height: 18px;
+  margin: 4px 3px 0 0;
+  background: url("/images/xmlbutton.jpg") no-repeat bottom; }
+#content #content-display {
+  text-align: justify; }
+  #content #content-display.manuscript {
+    min-width: 1024px; }
+  #content #content-display.overview, #content #content-display.description {
+    width: 85%; }
+
+#lb-zoom-image-div {
+  width: 875px;
+  height: 910px;
+  margin: auto;
+  border: 3px;
+  border-style: solid;
+  border-color: dimgrey;
+  background-color: #ece6d6; }
+
+#fs-zoom-image-div {
+  position: relative;
+  top: 158px;
+  width: 875px;
+  height: 910px;
+  margin: auto;
+  border: 3px;
+  border-style: solid;
+  border-color: dimgrey;
+  background-color: #ece6d6; }
+
+#open-new-zoom-window {
+  padding: 15px 0 0 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Signika Negative", "Arial", sans-serif; }
+  #open-new-zoom-window a {
+    color: #ece6d6; }
+
+#copyright-div {
+  padding: 15px 0 0 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Signika Negative", "Arial", sans-serif;
+  color: #ece6d6; }
+
+.popup-image {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100%; }
+
+#And {
+  background-image: url(/images/And.jpg);
+  width: 296px;
+  height: 134px; }
+
+#C22flourish22 {
+  background-image: url(/images/C22flourisht.jpg);
+  width: 248px;
+  height: 162px; }
+
+#C3flourisht {
+  background-image: url(/images/C3flourisht.jpg);
+  width: 316px;
+  height: 170px; }
+
+#C440euen {
+  background-image: url(/images/C440euen.jpg);
+  width: 401px;
+  height: 148px; }
+
+#CapitalD {
+  background-image: url(/images/CapitalD.jpg);
+  width: 625px;
+  height: 163px; }
+
+#CapitalN {
+  background-image: url(/images/CapitalN.jpg);
+  width: 370px;
+  height: 156px; }
+
+#CapitalT {
+  background-image: url(/images/CapitalT.jpg);
+  width: 447px;
+  height: 158px; }
+
+#Cdownnbowndon {
+  background-image: url(/images/Cdownnbowndon.jpg);
+  width: 586px;
+  height: 306px; }
+
+#D1070paraph {
+  background-image: url(/images/D1070paraph.jpg);
+  width: 190px;
+  height: 47px; }
+
+#D182paraph {
+  background-image: url(/images/D182paraph.jpg);
+  width: 100px;
+  height: 54px; }
+
+#D429paraph {
+  background-image: url(/images/D429paraph.jpg);
+  width: 94px;
+  height: 51px; }
+
+#D861paraph {
+  background-image: url(/images/D861paraph.jpg);
+  width: 158px;
+  height: 65px; }
+
+#D916paraph {
+  background-image: url(/images/D916paraph.jpg);
+  width: 124px;
+  height: 66px; }
+
+#Lrcurl {
+  background-image: url(/images/Lrcurl.jpg);
+  width: 252px;
+  height: 171px; }
+
+#P122rcurl {
+  background-image: url(/images/P122rcurl.jpg);
+  width: 178px;
+  height: 76px; }
+
+#P12rann {
+  background-image: url(/images/P12rann.jpg);
+  width: 134px;
+  height: 95px; }
+
+#P139 {
+  background-image: url(/images/P139.jpg);
+  width: 370px;
+  height: 94px; }
+
+#P150rcurl {
+  background-image: url(/images/P150rcurl.jpg);
+  width: 129px;
+  height: 77px; }
+
+#P500-503 {
+  background-image: url(/images/P500-503.jpg);
+  width: 322px;
+  height: 320px; }
+
+#P666t {
+  background-image: url(/images/P666t.jpg);
+  width: 181px;
+  height: 83px; }
+
+#P766t {
+  background-image: url(/images/P766t.jpg);
+  width: 144px;
+  height: 76px; }
+
+#Therfore {
+  background-image: url(/images/Therfore.jpg);
+  width: 350px;
+  height: 166px; }
+
+#V19tilde {
+  background-image: url(/images/V19tilde.jpg);
+  width: 410px;
+  height: 243px; }
+
+#V43rcurl {
+  background-image: url(/images/V43rcurl.jpg);
+  width: 240px;
+  height: 142px; }
+
+#Woll {
+  background-image: url(/images/Woll.jpg);
+  width: 310px;
+  height: 127px; }
+
+#moche {
+  background-image: url(/images/moche.jpg);
+  width: 412px;
+  height: 148px; }
+
+#xxxti {
+  background-image: url(/images/xxxti.jpg);
+  width: 340px;
+  height: 150px; }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>The Siege of Jerusalem Electronic Archive</title>
+
+    <link href="/stylesheets/sjea-common.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/sjea-comparison.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/jquery-ui-1.8.20.custom.css" media="screen" rel="stylesheet" type="text/css" />
+
+    <script src="/javascripts/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="/javascripts/jquery-ui-1.8.20.custom.min.js" type="text/javascript"></script>
+
+    <script src="/javascripts/jquery.blockUI.js" type="text/javascript"></script>
+    <script src="/javascripts/comparison.js" type="text/javascript"></script>
+    <script src="/javascripts/waitOverlay.js" type="text/javascript"></script>
+    <script src="/javascripts/remoteResource.js" type="text/javascript"></script>
+    <script src="/javascripts/parseURL.js" type="text/javascript"></script>
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=Cardo' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Signika+Negative' rel='stylesheet' type='text/css'>
+
+    <!-- <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">  <!-- DEVELOPMENT ONLY -->
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      //_gaq.push(['_setAccount', 'UA-32447445-1']);  // Dave's account for the staging site
+      _gaq.push(['_setAccount', 'UA-32308931-2']);    // Tim's account for the production site
+
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+  </head>
+
+  <body>
+
+    <div id="page">
+
+      <div id="page-header">
+          <div id="background-graphic"></div>
+          <div id="logo-graphic"></div>
+          <div id="title-graphic"></div>
+          <div id="title-support">ELECTRONIC ARCHIVE</div>
+          <div id="editor-name">Timothy L. Stinson, editor</div>
+          <ul id="header-tabs">
+              <li class="current"><a href="/comparison.html">Compare</a></li>
+              <li class="search"><a href="/search.html">Search</a></li>
+              <li class="manuscript"><a href="/manuscript.html">Manuscripts</a></li>
+              <li class="home"><a href="/index.html">Home</a></li>
+          </ul>    <!-- header-tabs -->
+      </div> <!-- page-header -->
+
+      <div id="sidebar">
+          <ul id="sidebar-items">
+              <div id="item-heading">Compare</div>
+          </ul>  <!-- sidebar-items -->
+      </div>  <!-- sidebar -->
+
+      <div id="content">
+
+          <div id="content-controls">
+              <div id="page-number-display"></div>
+              <button id="previous-button" type="button">&lt;</button>
+              <button id="next-button" type="button">&gt;</button>
+              <input id="hl-line-entry"></input>
+              <button id="hl-line-go-button" type="button">go to line</button>
+          </div>  <!-- content-controls -->
+
+          <div id="content-display">
+
+          </div>  <!-- content-display -->
+
+          <div id="footer-spacer">
+          </div>  <!-- footer-spacer -->
+
+      </div>  <!-- content -->
+
+    </div>  <!-- page -->
+
+    <div id="main-footer">
+        <p>&copy;The Society for Early English and Norse Electronic Texts, 2012. Use of this site is subject to the following <a id="terms" href="/index.html?page=terms">terms and conditions</a>.</p>
+    </div> <!-- main-footer -->
+
+  </body>
+
+</html>
